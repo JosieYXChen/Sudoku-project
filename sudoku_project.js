@@ -104,3 +104,6 @@ const sudoku = {
     return testResult ? "The two grids are exactly the same!" : "The two grids are different!";
   }
 }
+
+console.log(sudoku.isValid(grid1));
+console.log(sudoku.isSame(grid2, grid3));
